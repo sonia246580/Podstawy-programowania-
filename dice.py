@@ -128,3 +128,20 @@ print("The distance to the horizon = ", d1)
 h2 = 20 
 d2 = 3.57 * (h2 ** 2)
 print("The distance to the horizon = ",d2)
+
+###
+# A program that calculates and prints:
+# - the number of people and percentage of the total
+#   population living in the Northern Hemisphere
+# - the number of people and percentage of the total
+#   population living in the Southern Hemisphere
+#
+total = 8000000000
+north = 7200000000
+south = total - north
+print("World population: ", total)
+print("Northern Hemisphere: ", north)
+print("Northern Hemisphere in %: ", north/total*100)
+
+print("Southern Hemisphere: ", south)
+print("Southern Hemisphere in %: ", south/total*100)
